@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--- nav bar --->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- sections -->
+         <section id="home">
+            <h1>Full Stack Developer </h1>
+            <p>Hello, I'm Elizabeth Wangui <br> a full stack software developer.</p>
+         </section>
+
+         <section id="about">
+            <h2>About Me</h2>
+            <p>I am currently taking a software engineering course at Go My Code. <br>
+                I have a  omputer science degree from Machakos University.
+            </p>
+         </section>
+         <section id="work">
+            <h2>My Work</h2>
+            <p>Below are some of the projects I have worked on. <br>
+                They vary through various fields in tech including: Virtual Reality and Internet of Things.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <button> Download CV</button>
+            <a href="CV.pdf" download class="button">Download CV</a>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="contact-name">Name:</label><br>
+                <input type="text" id="contact-name" name="contact-name" required><br><br>
+                <label for="contact-email">Email:</label><br>
+                <input type="email" id="contact-email" name="contact-email" required><br><br>
+                <label for="contact-message">Message:</label><br>
+                <textarea id="contact-message" name="contact-message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Elizabeth</p>
+        </footer>
+    </body>
+</html>
