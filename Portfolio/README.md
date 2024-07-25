@@ -1,0 +1,1 @@
+This project is a personal portfolio website built with HTML and Tailwind CSS. It showcases a responsive design with various sections, including a header, hero section, skills section, projects section, contact form, and footer with social media links.
